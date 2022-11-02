@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(48, 24, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 44px;
+  color: #fff;
+  text-shadow: 2px 2px red;
+  margin-left: 40px;
+}
+
+.scoreboard {
+  width: 900px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-top: 50px;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score {
+  font-size: 24px;
+  width: 150px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-right: 40px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(223, 21, 21);
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.scorecard p {
+  letter-spacing: 5px;
+}
+
+.hands {
+  background-image: url("components/icons8-triangle-arrow-100.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 380px;
+  width: 520px;
+  margin-top: 50;
+  margin-top: 50px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  margin: 20px;
+  padding: 10px;
+  border: solid 5px rgb(0, 0, 0);
+  border-radius: 25px;
+  background-color: rgb(247, 240, 240);
+}
+
+.scissors {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.paper {
+  margin-right: 20px;
+}
+
+.hands .hand {
+  cursor: pointer;
+  transition: all 0, 25s;
+}
+
+.hands .hand:hover {
+  transform: translate3d(0px, -10px, 0px);
+}
+
+.contest {
+  width: 900px;
+  margin-top: 120px;
+  display: none;
+  justify-content: center;
+}
+/* chose the closest div under the div class = contest */
+.contest > div {
+  flex: 1;
+}
+
+.contest h1 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contest .handImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.referee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.referee h1 {
+  font-size: 48px;
+}
+
+.newGame {
+  background-color: #fff;
+  padding: 12px 8px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(223, 21, 21);
+}
+
+.newGame:hover {
+  background-color: bisque;
+  transform: translate3d(0px, -5px, 0px);
+  transition: 0, 15s;
+}
+
+.contest .handImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.referee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.referee h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.computerhand {
+  display: flex;
+  flex-direction: column;
+}
