@@ -19,3 +19,8 @@ You vs computer page:
 
 
 ![image](https://user-images.githubusercontent.com/93871311/199697770-ef4a1213-71bd-4c63-a3d9-e825a9c1e272.png)
+
+
+Wanna play? let's click on link below:
+
+https://jakubnawacki.github.io/rock-paper-scissors-game/
